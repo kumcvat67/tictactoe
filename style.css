@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    width:fit-content;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+}
+.grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    border: 3px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
+.start{
+    width: 40px;
+    border: 2px solid black;
+}
+.none{
+    color: red;
+}
+.show{
+    width: 40px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
